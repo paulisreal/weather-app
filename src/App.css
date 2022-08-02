@@ -1,0 +1,48 @@
+.App{
+  height: 100vh;
+  width: 200vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(241, 241, 241);
+
+}
+.weather{
+  margin-top: 20px;
+  width: 35rem;
+  height: 35rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  align-items: center;
+  
+  
+}
+.weather_location{
+  margin-top: 30px;
+  font-size: 40px;
+  font-weight: 800;
+}
+.weather_temp{
+  margin-top: 20px;
+  font-size: 30px;
+}
+.weather_cloud{
+  font-size: 20px;
+
+}
+.weather_description{
+  display: flex;
+  margin-top: 80px;
+  
+
+}
+.weather_range{
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.weather_date{
+  font-size: 15px;
+}
