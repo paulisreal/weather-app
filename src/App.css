@@ -64,7 +64,7 @@ h3{
   color:rgba(255, 255, 0, 0.861) ;
   
 }
-.weather_condition{
+.icon {
   animation: blinker 1.6s linear infinite;
 }
 @keyframes blinker {
