@@ -16,7 +16,7 @@ function App() {
   const [datafetched, setDataFetched] = useState(false)
 
 
-  const API_KEY = "747eb863dec4bd09a2df1abf2e66bcf7"
+  
     const fetchData = async (e) => {
       e.preventDefault()
 
@@ -43,17 +43,18 @@ function App() {
 
     const defaultDataFetched = async () => {
       if(!datafetched){
-      const res = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=$accra&appid=${process.env.REACT_APP_API_KEY}&units=metric`);
-      const data = await res.data
-
-
-      setDegrees(data.main.temp)
-      setLocation(data.name)
-      setDescription(data.weather[0].description)
-      setIcon(data.weather[0].icon)
-      setHumidity(data.main.humidity)
-      setWind(data.wind.speed)
-      setCountry(data.sys.country)
+        const res = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=accra&appid=${process.env.REACT_APP_API_KEY}&units=metric`);
+        const data = await res.data
+  
+  
+        setDegrees(data.main.temp)
+        setLocation(data.name)
+        setDescription(data.weather[0].description)
+        setIcon(data.weather[0].icon)
+        setHumidity(data.main.humidity)
+        setWind(data.wind.speed)
+        setCountry(data.sys.country)
+         
 
       }
    
