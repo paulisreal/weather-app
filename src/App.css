@@ -1,17 +1,18 @@
 .App{
   height: 100vh;
-  width: 200vh;
+  width:100%;
   display: flex;
   align-items: center;
   justify-content: center;
   color: rgb(241, 241, 241);
+  font-family: 'Times New Roman', Times, serif;
 
 }
 .weather{
   margin-top: 20px;
   width: 35rem;
   height: 35rem;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.713);
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -22,15 +23,20 @@
 }
 .weather_location{
   margin-top: 30px;
-  font-size: 40px;
-  font-weight: 800;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgba(255, 255, 0, 0.861);
+  
 }
 .weather_temp{
   margin-top: 20px;
   font-size: 30px;
 }
 .weather_cloud{
-  font-size: 20px;
+  text-align: center;
+  font-size: 17px;
+  padding-top: 60px;
 
 }
 .weather_description{
@@ -40,9 +46,30 @@
 
 }
 .weather_range{
-  margin-top: 10px;
+  margin-top: 5px;
   margin-left: 40px;
 }
 .weather_date{
   font-size: 15px;
+  color:rgba(255, 255, 0, 0.861);
+}
+.weather_cloud,span{
+  padding-bottom: 10px;
+}
+.icon{
+  height: 100px;
+  width: auto;
+}
+h3{
+  color:rgba(255, 255, 0, 0.861) ;
+  
+}
+.weather_condition{
+  animation: blinker 1.6s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;;
+  }
+  
 }

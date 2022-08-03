@@ -1,11 +1,11 @@
 import "./input.css"
 import { FiSearch } from 'react-icons/fi';
-const Input = () => {
+const Input = ({text, submit,func}) => {
   return (
-    
-    <form className="input">
-        <input type={"text"} placeholder="Pleace enter location" className="input_value"/>
-        <span className="input_search">
+   
+    <form className="input" onSubmit={submit}>
+        <input type={"text"} placeholder="Pleace enter location" className="input_value" onChange={text}/>
+        <span className="input_search" onClick={func}>
         <FiSearch />
         </span>
     </form>

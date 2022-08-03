@@ -5,8 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(/src/kaushik-panchal-0juC5JIhPks-unsplash.jpg);
-  background-size:contain ;
+  background-image: url(/src/david-brooke-martin-t_ZdxJsE8iM-unsplash.jpg);
+  background-size:cover ;
   background-position: center;
   justify-content: center;
 }
