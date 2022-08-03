@@ -81,7 +81,7 @@ function App() {
         
         <div className="weather_description">
         <div >
-          <h3>Humidity : {humidity}%</h3>
+          <h3 className="humidity">Humidity : {humidity}%</h3>
           <h3>Wind Speed : {wind} m/s</h3>
         </div>
         <div className="weather_range">
