@@ -88,11 +88,13 @@ function App() {
         <div className="weather_range">
           <h3>{country}</h3>
           <p className="weather_date">4/30/2022, 2:05:24 PM</p>
-        
-        </div>
-        </div>
+          
         </div>
         
+        </div>
+        
+        </div>
+        <p className="copyright">@paulisraelinc</p>
       </div>
     
     </div>

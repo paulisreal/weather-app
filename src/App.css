@@ -77,3 +77,12 @@ h3{
 .humidity{
   text-align: justify;
 }
+.copyright{
+  margin-top: 40px;
+  align-items: center;
+  margin-right: 40px;
+  margin-left: 30px;
+  font-size: x-small;
+  color: white;
+  opacity:0.5 ;
+}
